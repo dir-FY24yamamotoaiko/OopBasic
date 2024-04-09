@@ -1,9 +1,7 @@
 package company;
 
-import java.security.PublicKey;
-import java.util.jar.Attributes.Name;
 
-public class Employee {
+public class Employee implements Workable{
   //フィールド
   protected final String name;  //protected finalを付与
   protected final Department department; //Department型に変更
@@ -33,4 +31,7 @@ public class Employee {
       department.meeting ();
       System.out.println("→上記の会議に参加します。部署：" + department.getName()+ "名前：" + name);
       }
+  //働くメソッドを追加
+  
+  
 }
