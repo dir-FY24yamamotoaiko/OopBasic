@@ -45,10 +45,10 @@ public class ObjectSample {
         		
         		
          //実装したメソッドの呼び出し
-        ((Workable) sales).work();
-        ((Workable) engineer).work();
-        ((Workable) projectManager).work();
-        ((Workable) parttimeWorker).work();
+         sales.work();
+        engineer.work();
+        projectManager.work();
+        parttimeWorker.work();
         
         
     }
